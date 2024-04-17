@@ -23,7 +23,7 @@ with st.container():
     with col2:
         st.image('images/datalake.PNG', width = 100)
     with col3:
-        st.image('images/powerbi.PNG', width = 100)
+        st.image('images/powerbi.PNG', use_column_width = 'auto')
     with col4:
         st.image('images/github.png', use_column_width = 'auto')
     
