@@ -51,5 +51,9 @@ with st.container():
         st.image('images/github.png', use_column_width = 'auto')
 
 st.subheader("📨 Contact Me")
-st.write(f"Hi:, info['Email']")
-    
+st.write(info['Email'])
+st.markdown("---")
+st.write(info['Phone'])
+st.markdown("---")
+st.write(info['City'])
+st.markdown("---")
