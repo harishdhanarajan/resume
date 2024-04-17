@@ -52,7 +52,7 @@ with st.container():
 
 st.subheader("📨 Contact Me")
 st.write(info['Email'])
-st.markdown("---")
+st.write("")
 st.write(info['Phone'])
 st.markdown("---")
 st.write(info['City'])
