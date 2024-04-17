@@ -14,18 +14,18 @@ with st.container():
     with col1:
         st.image('images/python.png', use_column_width = 'auto')
     with col2:
-        st.image('python.png', use_column_width = 'auto')
+        st.image('images/python.png', use_column_width = 'auto')
     with col3:
-        st.image('python.png', use_column_width = 'auto')
+        st.image('images/python.png', use_column_width = 'auto')
     with col4:
-        st.image('python.png', use_column_width = 'auto')
+        st.image('images/python.png', use_column_width = 'auto')
     with col5:
-        st.image('python.png', use_column_width = 'auto')
+        st.image('images/python.png', use_column_width = 'auto')
     with col1:
-        st.image('python.png', use_column_width = 'auto')
+        st.image('images/python.png', use_column_width = 'auto')
     with col2:
-        st.image('python.png', use_column_width = 'auto')
+        st.image('images/python.png', use_column_width = 'auto')
     with col3:
-        st.image('python.png', use_column_width = 'auto')
+        st.image('images/python.png', use_column_width = 'auto')
     
     
