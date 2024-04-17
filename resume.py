@@ -23,9 +23,10 @@ with st.container():
 
 full_name = info['Full_Name']
 with col1:
-    gradient('#FFD4DD','#000395','e0fbfc',f"Hi, I'm {full_name}👋", info["Intro"], info[""])
+    gradient('#FFD4DD','#000395','e0fbfc',f"Hi, I'm {full_name}👋", info["Intro"])
     st.write("")
     st.write(info['About'])
+    st.write(info['Email'])
 with col2:
     st.image('images/profile.PNG', use_column_width = 'auto')
     
