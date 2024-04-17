@@ -35,7 +35,23 @@ st.subheader("Experience & Qulifications")
 col1, col2, col3 = st.columns([4,1,1])
 
 with col1:
-    with st.expander("Bank of New York Mellon (June 2019 - Present)"):
+    with st.expander("Bank of New York Mellon (June 2020 - Present)"):
+        st.write(
+            """
+        - ✔️ 7 Years expereince extracting actionable insights from data
+        - ✔️ Strong hands on experience and knowledge in Python and Excel
+        - ✔️ Good understanding of statistical principles and their respective applications
+        - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
+        - ► Redesigned data model through iterations that improved predictions by 12%
+        """
+        )
+with col2:
+    st.image('images/bnym.PNG', use_column_width = 'auto')
+with col3:
+    st.image('images/prft.png', width = 200)
+
+with col1:
+    with st.expander("Innominds - Bangalore (August 2019 - June 2020)"):
         st.write(
             """
         - ✔️ 7 Years expereince extracting actionable insights from data
