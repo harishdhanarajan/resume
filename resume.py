@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 from constant import *
 
-PAGE_TITLE = "Digital CV | John Doe"
+PAGE_TITLE = "Digital CV | Harish"
 PAGE_ICON = ":wave:"
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="wide")
 
