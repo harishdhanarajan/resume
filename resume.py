@@ -38,7 +38,7 @@ st.write(
 - ✔️ Strong hands on experience and knowledge in Python and Excel
 - ✔️ Good understanding of statistical principles and their respective applications
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
-► Redesigned data model through iterations that improved predictions by 12%
+- ► Redesigned data model through iterations that improved predictions by 12%
 """
 )
 
