@@ -1,5 +1,6 @@
 import requests
 import streamlit as st
+from constant import *
 
 def local_css(file_name):
     with open(file_name) as f:
