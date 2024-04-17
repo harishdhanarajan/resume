@@ -19,11 +19,11 @@ with st.container():
     with col7:
         st.image('images/oracle.PNG', use_column_width = 'auto')
     with col1:
-        st.image('images/powerbi.PNG', use_column_width = 'auto')
-    with col3:
         st.image('images/snowflake.PNG', use_column_width = 'auto')
-    with col5:
+    with col3:
         st.image('images/datalake.PNG', use_column_width = 'auto')
+    with col5:
+        st.image('images/powerbi.PNG', use_column_width = 'auto')
     with col7:
         st.image('images/github.png', use_column_width = 'auto')
     
