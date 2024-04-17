@@ -13,17 +13,17 @@ with st.container():
     with col1:
         st.image('images/python.png', width = 100)
     with col2:
-        st.image('images/ai.png', width = 100)
+        st.image('images/ai.PNG', width = 100)
     with col3:
-        st.image('images/ml.png', width = 100)
+        st.image('images/ml.PNG', width = 100)
     with col4:
-        st.image('images/oracle.png', width = 100)
+        st.image('images/oracle.PNG', width = 100)
     with col5:
-        st.image('images/snowflake.png', width = 100)
+        st.image('images/snowflake.PNG', width = 100)
     with col1:
-        st.image('images/datalake.png', width = 100)
+        st.image('images/datalake.PNG', width = 100)
     with col2:
-        st.image('images/powerbi.png', width = 100)
+        st.image('images/powerbi.PNG', width = 100)
     with col3:
         st.image('images/github.png', width = 100)
     
