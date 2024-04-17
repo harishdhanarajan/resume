@@ -1,7 +1,10 @@
 import requests
 import streamlit as st
 from constant import *
+
 PAGE_TITLE = "Digital CV | John Doe"
+PAGE_ICON = ":wave:"
+
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
