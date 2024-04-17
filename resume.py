@@ -25,6 +25,6 @@ with st.container():
     with col2:
         st.image('images/powerbi.PNG', width = 100)
     with col3:
-        st.image('images/github.png', width = 100)
+        st.image('images/github.png', use_column_width = 'auto')
     
     
