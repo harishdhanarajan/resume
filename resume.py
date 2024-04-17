@@ -14,13 +14,15 @@ def gradient(color1, color2, color3, content1, content2):
                 unsafe_allow_html=True)
 
 with st.container():
-    col1,col2 = st.columns([8,3])
+    col1,col2 = st.columns([8,2])
 
 full_name = info['Full_Name']
 with col1:
     gradient('#FFD4DD','#000395','e0fbfc',f"Hi, I'm {full_name}👋", info["Intro"])
     st.write("")
     st.write(info['About'])
+with col2:
+    st.image('images/profile.PNG', use_column_width = 'auto')
     
 with st.container():
     st.subheader('⚒️ Skills')
