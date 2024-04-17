@@ -33,7 +33,7 @@ with col2:
 st.markdown("---")
 st.subheader("Experience & Qulifications")
 col1, col2, col3 = st.columns([4,1,1])
-
+col4, col5, col6 = st.columns([4,1,1])
 with col1:
     with st.expander("Bank of New York Mellon (June 2020 - Present)"):
         st.write(
@@ -50,7 +50,7 @@ with col2:
 with col3:
     st.image('images/prft.png', width = 200)
 
-with col1:
+with col4:
     with st.expander("Innominds - Bangalore (August 2019 - June 2020)"):
         st.write(
             """
@@ -61,9 +61,9 @@ with col1:
         - ► Redesigned data model through iterations that improved predictions by 12%
         """
         )
-with col2:
+with col5:
     st.image('images/bnym.PNG', use_column_width = 'auto')
-with col3:
+with col6:
     st.image('images/prft.png', width = 200)
     
 st.markdown("---")
