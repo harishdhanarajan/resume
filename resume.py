@@ -35,7 +35,8 @@ st.subheader("Experience & Qulifications")
 col1, col2, col3 = st.columns([4,1,1])
 col4, col5, col6 = st.columns([4,1,1])
 with col1:
-    with st.expander("Bank of New York Mellon (June 2020 - Present)"):
+    my_expander = st.expander(label='Bank of New York Mellon (June 2020 - Present)')
+    with my_expander:
         st.write(
             """
         - ✔️ 7 Years expereince extracting actionable insights from data
@@ -45,6 +46,7 @@ with col1:
         - ► Redesigned data model through iterations that improved predictions by 12%
         """
         )
+    clicked = st.button('Click me!')
 with col2:
     st.image('images/bnym.PNG', use_column_width = 'auto')
 with col3:
@@ -62,9 +64,8 @@ with col4:
         """
         )
 with col5:
-    st.image('images/bnym.PNG', use_column_width = 'auto')
-with col6:
-    st.image('images/prft.png', width = 200)
+    st.image('images/innominds.PNG', use_column_width = 'auto')
+
     
 st.markdown("---")
 with st.container():
