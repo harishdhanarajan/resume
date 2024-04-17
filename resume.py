@@ -26,7 +26,7 @@ with col1:
     gradient('#FFD4DD','#000395','e0fbfc',f"Hi, I'm {full_name}👋", info["Intro"])
     st.write("")
     st.write(info['About'])
-    st.write(info['Email'])
+
 with col2:
     st.image('images/profile.PNG', use_column_width = 'auto')
     
@@ -51,14 +51,5 @@ with st.container():
         st.image('images/github.png', use_column_width = 'auto')
 
 st.subheader("📨 Contact Me")
-contact_form = f"""
-<form action="https://formsubmit.co/{info["Email"]}" method="POST">
-	<input type="hidden" name="_captcha value="false">
-	<input type="text" name="name" placeholder="Your name" required>
-	<input type="email" name="email" placeholder="Your email" required>
-	<textarea name="message" placeholder="Your message here" required></textarea>
-	<button type="submit">Send</button>
-</form>
-"""
-st.markdown(contact_form, unsafe_allow_html=True)
+st.write(f"Hi:, info['Email']")
     
