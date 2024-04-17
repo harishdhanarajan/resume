@@ -30,7 +30,18 @@ st.write(info['About'])
 with col2:
     st.image('images/profile.PNG', use_column_width = 'auto')
 
-st.markdown("---")  
+st.markdown("---")
+st.subheader("Experience & Qulifications")
+st.write(
+    """
+- ✔️ 7 Years expereince extracting actionable insights from data
+- ✔️ Strong hands on experience and knowledge in Python and Excel
+- ✔️ Good understanding of statistical principles and their respective applications
+- ✔️ Excellent team-player and displaying strong sense of initiative on tasks
+"""
+)
+
+st.markdown("---")
 with st.container():
     st.subheader('⚒️ Skills')
     col1, col2, col3, col4, col5, col6, col7, col8 = st.columns([1,0.1, 1, 0.1, 1, 0.1, 1, 0.1])
