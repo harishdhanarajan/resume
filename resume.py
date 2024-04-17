@@ -48,7 +48,7 @@ with col1:
 with col2:
     st.image('images/bnym.PNG', use_column_width = 'auto')
 with col3:
-    st.image('images/prft.png', use_column_width = 'auto')
+    st.image('images/prft.png', width = 200)
     
 st.markdown("---")
 with st.container():
