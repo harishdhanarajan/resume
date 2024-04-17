@@ -46,9 +46,9 @@ with col1:
         """
         )
 with col2:
-    st.image('images/python.png', use_column_width = 'auto')
+    st.image('images/python.png', width = 10)
 with col3:
-    st.image('images/python.png', use_column_width = 'auto')
+    st.image('images/python.png', width = 10)
     
 st.markdown("---")
 with st.container():
