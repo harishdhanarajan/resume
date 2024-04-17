@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-from constant import *
+from myprofile import *
 
 PAGE_TITLE = "Digital CV | Harish"
 PAGE_ICON = ":wave:"
