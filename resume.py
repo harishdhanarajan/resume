@@ -45,7 +45,6 @@ with col1:
         - ► Redesigned data model through iterations that improved predictions by 12%
         """
         )
-    clicked = st.button('Click me!')
 with col2:
     st.image('images/bnym.PNG', use_column_width = 'auto')
 with col3:
