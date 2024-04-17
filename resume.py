@@ -35,8 +35,7 @@ st.subheader("Experience & Qulifications")
 col1, col2, col3 = st.columns([4,1,1])
 col4, col5, col6 = st.columns([4,1,1])
 with col1:
-    my_expander = st.expander(label='Bank of New York Mellon (June 2020 - Present)')
-    with my_expander:
+    with st.expander("Bank of New York Mellon (June 2020 - Present)")
         st.write(
             """
         - ✔️ 7 Years expereince extracting actionable insights from data
