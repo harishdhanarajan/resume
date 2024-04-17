@@ -10,7 +10,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
-local_css("r_style/style.css")
+#local_css("r_style/style.css")
 
 def gradient(color1, color2, color3, content1, content2):
     st.markdown(f'<h1 style="text-align:center;background-image: linear-gradient(to right,{color1}, {color2});font-size:60px;border-radius:2%;">'
@@ -23,7 +23,7 @@ with st.container():
 
 full_name = info['Full_Name']
 with col1:
-    gradient('#FFD4DD','#000395','e0fbfc',f"Hi, I'm {full_name}👋", info["Intro"])
+    gradient('#FFD4DD','#000395','e0fbfc',f"Hi, I'm {full_name}👋", info["Intro"], info[""])
     st.write("")
     st.write(info['About'])
 with col2:
