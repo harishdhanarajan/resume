@@ -29,7 +29,8 @@ with col1:
 
 with col2:
     st.image('images/profile.PNG', use_column_width = 'auto')
-    
+
+st.markdown("---")  
 with st.container():
     st.subheader('⚒️ Skills')
     col1, col2, col3, col4, col5, col6, col7, col8 = st.columns([1,0.1, 1, 0.1, 1, 0.1, 1, 0.1])
@@ -50,10 +51,11 @@ with st.container():
     with col7:
         st.image('images/github.png', use_column_width = 'auto')
 
+st.markdown("---")
 st.subheader("📨 Contact Me")
 st.write(info['Email'])
 st.write("")
 st.write(info['Phone'])
-st.markdown("---")
+st.write("")
 st.write(info['City'])
 st.markdown("---")
