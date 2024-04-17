@@ -19,7 +19,7 @@ def gradient(color1, color2, color3, content1, content2):
                 unsafe_allow_html=True)
 
 with st.container():
-    col1,col2 = st.columns([8,2])
+    col1,col2 = st.columns([8,1])
 
 full_name = info['Full_Name']
 with col1:
@@ -49,5 +49,16 @@ with st.container():
         st.image('images/powerbi.PNG', use_column_width = 'auto')
     with col7:
         st.image('images/github.png', use_column_width = 'auto')
-    
+
+st.subheader("📨 Contact Me")
+contact_form = f"""
+<form action="https://formsubmit.co/{info["Email"]}" method="POST">
+	<input type="hidden" name="_captcha value="false">
+	<input type="text" name="name" placeholder="Your name" required>
+	<input type="email" name="email" placeholder="Your email" required>
+	<textarea name="message" placeholder="Your message here" required></textarea>
+	<button type="submit">Send</button>
+</form>
+"""
+st.markdown(contact_form, unsafe_allow_html=True)
     
