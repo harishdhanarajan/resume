@@ -11,7 +11,7 @@ with st.container():
     st.subheader('⚒️ Skills')
     col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 1])
     with col1:
-        st.image('images/python.png', width = 200)
+        st.image('images/python.png', width = 100)
     with col2:
         st.image('images/python.png', use_column_width = 'auto')
     with col3:
