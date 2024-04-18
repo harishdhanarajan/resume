@@ -37,7 +37,8 @@ with col20:
     st.write(
             """
         - ✔️ Increased the productivity of employees by automating QA tasks that saves 20 hours of work per week.
-        - ✔️ Developed Semantic Search Engine using BERT/NLTK model using Confluence knowledge base of the Bank.
+        - ✔️ Developed Semantic Search Engine using BERT/NLTK model using Confluence knowledge base of the Bank to find relevant documentations.
+        - ✔️ Developed more than 6 web applications using Streamlit that are ready for Deployment (Cron Job).        
         """
         )
 with col21:
