@@ -36,13 +36,15 @@ col20,col21 = st.columns([1,1])
 with col20:
     st.write(
             """
-        - ✔️ Proficient in diverse machine learning algorithms, specializing in deep learning and ensemble methods.
+        - ✔️ Increased the productivity of employees by automating QA tasks that saves 20 hours of work per week.
+        - ✔️ Developed Semantic Search Engine using BERT/NLTK model using Confluence knowledge base of the Bank.
         """
         )
 with col21:
     st.write(
             """
-        - ✔️ Proficient in diverse machine learning algorithms, specializing in deep learning and ensemble methods.
+        - ✔️ Currently developing a ChatBot for the data-team using GPT 3.5 Turbo model that will help the customers save time and gain better knowledge without our assitance.
+        - ✔️ Created Data Catalogs using Streamlit (Python) across all the databases in the Bank for analytic purposes such high memory consumptions, processing speed of queries, etc.
         """
         )
     
