@@ -49,7 +49,7 @@ with col1:
 with col2:
     st.image('images/bnym.PNG', use_column_width = 'auto')
 with col3:
-    st.image('images/prft.png', width = 200)
+    st.image('images/prft.png', use_column_width = 'auto')
 
 with col4:
     with st.expander("Innominds - Bangalore (August 2019 - June 2020)"):
