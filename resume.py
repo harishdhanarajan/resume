@@ -121,7 +121,6 @@ with st.container():
 st.markdown("---")
 st.subheader("📨 Contact Me")
 st.write(info['Email'])
-st.write("")
 st.write(info['Phone'])
 st.write("")
 st.write(info['City'])
