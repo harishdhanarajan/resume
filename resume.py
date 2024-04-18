@@ -119,9 +119,12 @@ with st.container():
         st.image('images/github.png', use_column_width = 'auto')
 
 st.markdown("---")
+st.subheader("Other Activities")
+st.write("dfd")
+st.write("df")
+st.markdown("---")
 st.subheader("📨 Contact Me")
 st.write(info['Email'])
 st.write(info['Phone'])
-st.write("")
 st.write(info['City'])
 st.markdown("---")
