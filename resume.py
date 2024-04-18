@@ -31,21 +31,15 @@ with col2:
     st.image('images/profile.PNG', use_column_width = 'auto')
 
 st.markdown("---")
-st.subheader("Experience & Qulifications")
+st.subheader("Experience & Qualification")
 col1, col2, col3 = st.columns([4,0.5,0.5])
 col4, col5, col6 = st.columns([4,0.5,0.5])
+col7, col8, col9 = st.columns([4,0.5,0.5])
 with col1:
     with st.expander("Bank of New York Mellon (June 2020 - Present)"):
+        st.subheader("Senior Technical Consultant")
         st.image('images/bnym_jd.png', use_column_width = 'auto')
-        st.write(
-            """
-        - ✔️ 7 Years expereince extracting actionable insights from data
-        - ✔️ Strong hands on experience and knowledge in Python and Excel
-        - ✔️ Good understanding of statistical principles and their respective applications
-        - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
-        - ► Redesigned data model through iterations that improved predictions by 12%
-        """
-        )
+
 with col2:
     st.image('images/bnym.PNG', use_column_width = 'auto')
 with col3:
@@ -55,15 +49,31 @@ with col4:
     with st.expander("Innominds - Bangalore (August 2019 - June 2020)"):
         st.write(
             """
-        - ✔️ 7 Years expereince extracting actionable insights from data
-        - ✔️ Strong hands on experience and knowledge in Python and Excel
-        - ✔️ Good understanding of statistical principles and their respective applications
-        - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
-        - ► Redesigned data model through iterations that improved predictions by 12%
+        - ► Proficient in diverse machine learning algorithms, specializing in deep learning and ensemble methods.
+        - ► Skilled in data preprocessing techniques, feature engineering, and thorough model evaluation to ensure optimal performance
+        - ► Redesigned data model through iterations that improved predictions by 54%
+        - ► Demonstrated ability to deploy machine learning models effectively in production environments, ensuring seamless integration with existing systems.
+        - ► Frequently communicated with non-technical stakeholders directly
         """
         )
 with col5:
     st.image('images/innominds.PNG', use_column_width = 'auto')
+with col7:
+    with st.expander("EIR - Ireland (August 2016 - June 2019)"):
+        st.write(
+            """
+        - ✔️ Presented Forecasting Ideas for Dashboard
+        - ✔️ PowerBI Dashboard Maintenance
+        - ✔️ Integration of Python with PowerBI Dev.
+        - ✔️ Proactively involved in database management
+        """
+        )
+with col8:
+    st.image('images/eir.png', use_column_width = 'auto')
+with col9:
+    st.image('images/hcl.png', use_column_width = 'auto')
+    
+    
 
     
 st.markdown("---")
