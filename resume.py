@@ -38,7 +38,7 @@ with col20:
             """
         - ✔️ Increased the productivity of employees by **_Automating QA_** tasks that saves 6-7 hours of work per week.
         - ✔️ Developed Semantic Search Engine using **_BERT/NLTK model_** using Confluence knowledge base of the Bank to find relevant documentations.
-        - ✔️ Developed more than 6 web applications using Streamlit that are ready for Deployment (Cron Job).        
+        - ✔️ Developed more than 6 web applications using Streamlit for Data Teams own use that are ready for Deployment (Cron Job).        
         """
         )
 with col21:
