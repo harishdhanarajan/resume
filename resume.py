@@ -36,16 +36,16 @@ col20,col21 = st.columns([1,1])
 with col20:
     st.write(
             """
-        - ✔️ Increased the productivity of employees by automating QA tasks that saves 20 hours of work per week.
-        - ✔️ Developed Semantic Search Engine using BERT/NLTK model using Confluence knowledge base of the Bank to find relevant documentations.
+        - ✔️ Increased the productivity of employees by **_automating QA_** tasks that saves 20 hours of work per week.
+        - ✔️ Developed Semantic Search Engine using **_BERT/NLTK model_** using Confluence knowledge base of the Bank to find relevant documentations.
         - ✔️ Developed more than 6 web applications using Streamlit that are ready for Deployment (Cron Job).        
         """
         )
 with col21:
     st.write(
             """
-        - ✔️ Currently developing a ChatBot for the data-team using GPT 3.5 Turbo model that will help the customers save time and gain better knowledge without our assitance.
-        - ✔️ Created Data Catalogs using Streamlit (Python) across all the databases in the Bank for analytic purposes such high memory consumptions, processing speed of queries, etc.
+        - ✔️ Currently developing a ChatBot for the data-team using **_GPT 3.5 Turbo model_** that will help the customers save time and gain better knowledge without our assitance.
+        - ✔️ Created **_Data Catalogs_** using Streamlit (Python) across all the databases in the Bank for analytic purposes such high memory consumptions, processing speed of queries, etc.
         """
         )
     
