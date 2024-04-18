@@ -130,8 +130,8 @@ with st.container():
 
 st.markdown("---")
 st.subheader("Other Activities")
-st.write(" - Currently Developing a AI model for use of Solar Irradiance Prediction, Fault Diagnosis and Troubleshooting of Solar Power Systems")
-st.write(" - Taken Initivative to find parameters that impacts Nifty 50 by performing sentiment analysis using X with open/close points and cross comparing the performance in realtime")
+st.write(" - Currently Developing a AI model for use of Solar Irradiance Prediction, Fault Diagnosis and Troubleshooting of Solar Power Systems.")
+st.write(" - Taken Initivative to find parameters that impacts Nifty 50 by performing sentiment analysis using X with open/close points and cross comparing the performance in realtime.")
 
 st.markdown("---")
 st.subheader("📨 Contact Me")
