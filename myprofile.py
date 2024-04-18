@@ -1,7 +1,7 @@
 info = {
    "Full_Name": "Harish Dhanarajan",
    "Intro": "Data Science and AI/ML Enthusiast",
-   "About":"Hello! I'm passionate about leveraging technology to solve complex problems and make processes more efficient. With a strong foundation in machine learning, Python programming, and expertise in OpenAI, I thrive on exploring the realms of artificial intelligence and automation. My journey in data science and analytics has equipped me with the skills to extract meaningful insights from data, empowering businesses to make informed decisions. Proficient in tools like PowerBI, I specialize in transforming raw data into actionable visualizations, unlocking hidden patterns and trends. Driven by curiosity and a commitment to innovation, I'm dedicated to staying at the forefront of emerging technologies and applying them to real-world challenges. Let's collaborate to turn ideas into impactful solutions!",
+   "About":"Hello! I'm an Eager learner with a strong interest in Artificial Intelligence and Machine Learning. Enthusiastic about diving into the field and gaining real-time experience with Phenomenal learning models like Bigram, GPTs and Deep Learning. Ready to contribute to innovative projects and eager to expand knowledge through dedicated learning and collaboration with experts in the field!",
    "City":"City : Chennai, Tamilnadu",
    "Phone":"Phone : +91 7094086003",
    "Email": "Email : harish.dhanarajan@gmail.com"
