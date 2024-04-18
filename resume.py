@@ -36,9 +36,8 @@ col1, col2, col3 = st.columns([4,0.5,0.5])
 col4, col5, col6 = st.columns([4,0.5,0.5])
 col7, col8, col9 = st.columns([4,0.5,0.5])
 with col1:
-    with st.expander("Bank of New York Mellon (June 2020 - Present)"):
-        st.subheader("Senior Technical Consultant")
-        st.image('images/bnym_jd.png', use_column_width = 'auto')
+    with st.expander("Bank of New York Mellon as Senior Technical Consultant (June 2020 - Present)"):
+        st.image('images/bnym_jd.png', width = 200)
 
 with col2:
     st.image('images/bnym.PNG', use_column_width = 'auto')
@@ -46,20 +45,20 @@ with col3:
     st.image('images/prft.png', use_column_width = 'auto')
 
 with col4:
-    with st.expander("Innominds - Bangalore (August 2019 - June 2020)"):
+    with st.expander("Innominds - Bangalore as Junior Machine Learning Engineer (August 2019 - June 2020)"):
         st.write(
             """
-        - ► Proficient in diverse machine learning algorithms, specializing in deep learning and ensemble methods.
-        - ► Skilled in data preprocessing techniques, feature engineering, and thorough model evaluation to ensure optimal performance
-        - ► Redesigned data model through iterations that improved predictions by 54%
-        - ► Demonstrated ability to deploy machine learning models effectively in production environments, ensuring seamless integration with existing systems.
-        - ► Frequently communicated with non-technical stakeholders directly
+        - ✔️ Proficient in diverse machine learning algorithms, specializing in deep learning and ensemble methods.
+        - ✔️ Skilled in data preprocessing techniques, feature engineering, and thorough model evaluation to ensure optimal performance
+        - ✔️ Redesigned data model through iterations that improved predictions by 54%
+        - ✔️ Demonstrated ability to deploy machine learning models effectively in production environments, ensuring seamless integration with existing systems.
+        - ✔️ Frequently communicated with non-technical stakeholders directly
         """
         )
 with col5:
     st.image('images/innominds.PNG', use_column_width = 'auto')
 with col7:
-    with st.expander("EIR - Ireland (August 2016 - June 2019)"):
+    with st.expander("EIR - Ireland as Reporting Analyst (August 2016 - June 2019)"):
         st.write(
             """
         - ✔️ Presented Forecasting Ideas for Dashboard
