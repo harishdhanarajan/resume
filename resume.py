@@ -37,7 +37,7 @@ col4, col5, col6 = st.columns([4,0.5,0.5])
 col7, col8, col9 = st.columns([4,0.5,0.5])
 with col1:
     with st.expander("Bank of New York Mellon as Senior Technical Consultant (June 2020 - Present)"):
-        col10, col11, col12 = st.columns([0.5,4,0.5])
+        col10, col11, col12 = st.columns([0.25,4,0.5])
         with col11:
             st.image('images/bnym_jd.png', width = 750)
 
