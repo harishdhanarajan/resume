@@ -36,6 +36,7 @@ col1, col2, col3 = st.columns([4,1,1])
 col4, col5, col6 = st.columns([4,1,1])
 with col1:
     with st.expander("Bank of New York Mellon (June 2020 - Present)"):
+        st.image('images/bnym.PNG', use_column_width = 'auto')
         st.write(
             """
         - ✔️ 7 Years expereince extracting actionable insights from data
