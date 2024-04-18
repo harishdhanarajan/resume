@@ -51,7 +51,7 @@ with col21:
     
 
 st.markdown("---")
-st.subheader("Experience & Qualification")
+st.subheader("Professional Experience")
 col1, col2, col3 = st.columns([4,0.5,0.5])
 col4, col5, col6 = st.columns([4,0.5,0.5])
 col7, col8, col9 = st.columns([4,0.5,0.5])
@@ -93,8 +93,18 @@ with col8:
     st.image('images/eir.png', use_column_width = 'auto')
 with col9:
     st.image('images/hcl.png', use_column_width = 'auto')
-    
-    
+
+st.markdown("---")
+
+
+st.subheader("Education")
+col18, col28 = st.columns([1,1,1])
+with col18:
+    st.write("**_National College of Ireland_**")
+    st.write(2015-2016)
+with col28:
+    st.write("**_Jaya Engineering College_**")
+    st.write(2011-2015)
 
     
 st.markdown("---")
