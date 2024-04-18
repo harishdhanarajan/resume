@@ -36,7 +36,7 @@ col20,col21 = st.columns([1,1])
 with col20:
     st.write(
             """
-        - ✔️ Increased the productivity of employees by **_automating QA_** tasks that saves 20 hours of work per week.
+        - ✔️ Increased the productivity of employees by **_Automating QA_** tasks that saves 6-7 hours of work per week.
         - ✔️ Developed Semantic Search Engine using **_BERT/NLTK model_** using Confluence knowledge base of the Bank to find relevant documentations.
         - ✔️ Developed more than 6 web applications using Streamlit that are ready for Deployment (Cron Job).        
         """
