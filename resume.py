@@ -31,6 +31,23 @@ with col2:
     st.image('images/profile.PNG', use_column_width = 'auto')
 
 st.markdown("---")
+st.subheader("Technical Intivatives")
+col20,col21 = st.columns([1,1])
+with col20:
+    st.write(
+            """
+        - ✔️ Proficient in diverse machine learning algorithms, specializing in deep learning and ensemble methods.
+        """
+        )
+with col21:
+    st.write(
+            """
+        - ✔️ Proficient in diverse machine learning algorithms, specializing in deep learning and ensemble methods.
+        """
+        )
+    
+
+st.markdown("---")
 st.subheader("Experience & Qualification")
 col1, col2, col3 = st.columns([4,0.5,0.5])
 col4, col5, col6 = st.columns([4,0.5,0.5])
