@@ -32,8 +32,8 @@ with col2:
 
 st.markdown("---")
 st.subheader("Experience & Qulifications")
-col1, col2, col3 = st.columns([4,1,1])
-col4, col5, col6 = st.columns([4,1,1])
+col1, col2, col3 = st.columns([4,0.5,0.5])
+col4, col5, col6 = st.columns([4,0.5,0.5])
 with col1:
     with st.expander("Bank of New York Mellon (June 2020 - Present)"):
         st.image('images/bnym.PNG', use_column_width = 'auto')
