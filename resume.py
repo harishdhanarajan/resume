@@ -100,10 +100,10 @@ st.markdown("---")
 st.subheader("Education")
 col18, col28 = st.columns([1,1])
 with col18:
-    st.write("**National College of Ireland**")
+    st.write("**National College of Ireland - M.S in Data Analytics**")
     st.write("2015-2016")
 with col28:
-    st.write("**Jaya Engineering College**")
+    st.write("**Jaya Engineering College - BE. Electronics and Telecommunication**")
     st.write("2011-2015")
 
     
