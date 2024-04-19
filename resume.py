@@ -30,6 +30,8 @@ st.write(info['About'])
 with col2:
     st.image('images/profile.PNG', use_column_width = 'auto')
 
+st.info("[Click Here to Chat about me](https://askmeaboutharish.streamlit.app/) !", icon="🤖")
+
 st.markdown("---")
 st.subheader("Technical Intivatives")
 col20,col21 = st.columns([1,1])
