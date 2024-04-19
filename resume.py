@@ -51,7 +51,7 @@ with col21:
         """
         )
 
-st.write("**_To Make it More Interesting for the Hiring Manager, I have built a ChatBot with my Custom Knowledge base using GPT 3.5 Turbo and LlamaIndex, The links is above or [Click Here](https://askmeaboutharish.streamlit.app/) if not!_**")
+st.write("**_To Make it More Interesting for everyone, I have tried to build a ChatBot that will answer about me which is getting trained with my Custom Knowledge base using GPT 3.5 Turbo and LlamaIndex, The links is above or [Click Here](https://askmeaboutharish.streamlit.app/) if not!_**")
 
 st.markdown("---")
 st.subheader("Professional Experience")
