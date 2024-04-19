@@ -50,7 +50,8 @@ with col21:
         - ✔️ Created **_Data Catalogs_** using Streamlit (Python) across all the databases in the Bank for analytic purposes such high memory consumptions, processing speed of queries, etc.
         """
         )
-    
+
+st.write("**d**")
 
 st.markdown("---")
 st.subheader("Professional Experience")
