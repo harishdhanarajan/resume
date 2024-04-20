@@ -25,14 +25,14 @@ full_name = info['Full_Name']
 with col1:
     gradient('#FFD4DD','#000395','e0fbfc',f"Hi, I'm {full_name}👋", info["Intro"])
     st.write("")
-st.write(":rainbow[Hello! I'm an Eager learner with a strong interest in Artificial Intelligence and Machine Learning. Enthusiastic about diving into the field and gaining real-time experience with Phenomenal learning models like Bigram, GPTs and Deep Learning. Ready to contribute to innovative projects and eager to expand knowledge through dedicated learning and collaboration with experts in the field!]")
+st.write(":violet[Hello! I'm an Eager learner with a strong interest in Artificial Intelligence and Machine Learning. Enthusiastic about diving into the field and gaining real-time experience with Phenomenal learning models like Bigram, GPTs and Deep Learning. Ready to contribute to innovative projects and eager to expand knowledge through dedicated learning and collaboration with experts in the field!]")
 
 with col2:
     st.image('images/profile.PNG', use_column_width = 'auto')
 
 st.info("[Click Here to Chat about me](https://askmeaboutharish.streamlit.app/) !", icon="🤖")
 
-st.subheader(":rainbow[Technical Intivatives]", divider='rainbow')
+st.subheader("📊:rainbow[Technical Intivatives]", divider='rainbow')
 col20,col21 = st.columns([1,1])
 with col20:
     st.write(
@@ -52,7 +52,7 @@ with col21:
 
 st.markdown("<p style = 'text-align:center;'><b>Created a personalized ChatBot, designed to answer questions about me! This innovative project involves training the ChatBot with my very own custom knowledge base, incorporating the powerful capabilities of GPT 3.5 Turbo and LlamaIndex, The links is above!</b></p>", unsafe_allow_html = True)
 
-st.subheader(":rainbow[Professional Experience]", divider='rainbow')
+st.subheader("💼:rainbow[Professional Experience]", divider='rainbow')
 col1, col2, col3 = st.columns([4,0.5,0.5])
 col4, col5, col6 = st.columns([4,0.5,0.5])
 col7, col8, col9 = st.columns([4,0.5,0.5])
@@ -95,7 +95,7 @@ with col8:
 with col9:
     st.image('images/hcl.png', use_column_width = 'auto')
 
-st.subheader(":rainbow[Education]", divider='rainbow')
+st.subheader("📚:rainbow[Education]", divider='rainbow')
 col18, col28 = st.columns([1,1])
 with col18:
     st.write("**National College of Ireland - M.S in Data Analytics**")
