@@ -4,7 +4,7 @@ from myprofile import *
 
 PAGE_TITLE = "Digital CV | Harish"
 PAGE_ICON = ":wave:"
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="wide")
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="centered")
 
 def local_css(file_name):
     with open(file_name) as f:
