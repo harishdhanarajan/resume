@@ -105,7 +105,7 @@ with col28:
     st.write("2011-2015")
 
 with st.container():
-    st.subheader(":rainbow[⚒️ Skills]", divider='rainbow')
+    st.subheader("⚒️:rainbow[Skills]", divider='rainbow')
     col1, col2, col3, col4, col5, col6, col7, col8 = st.columns([1,0.1, 1, 0.1, 1, 0.1, 1, 0.1])
     with col1:
         st.image('images/python.png', use_column_width = 'auto')
@@ -128,7 +128,7 @@ st.subheader(":rainbow[Other Activities]", divider='rainbow')
 st.write(" - Currently Developing a AI model for use of Solar Irradiance Prediction, Fault Diagnosis and Troubleshooting of Solar Power Systems.")
 st.write(" - Taken Initivative to find parameters that impacts Nifty 50 by performing sentiment analysis using X with open/close points and cross comparing the performance in realtime.")
 
-st.subheader(":rainbow[📨 Contact Me", divider='rainbow')
+st.subheader("📨:rainbow[Contact Me]", divider='rainbow')
 st.write(info['Email'])
 st.write(info['Phone'])
 st.write(info['City'])
