@@ -51,7 +51,7 @@ with col21:
         """
         )
 
-st.markdown("<p style = 'text-align:center;'><b>Created a personalized ChatBot, designed to answer questions about me! This innovative project involves training the ChatBot with my very own custom knowledge base, incorporating the powerful capabilities of GPT 3.5 Turbo and LlamaIndex, The links is above!</b></p>", unsafe_allow_html = True)
+st.markdown("<p style = 'text-align:center;'><b>:rainbow[Created a personalized ChatBot, designed to answer questions about me! This innovative project involves training the ChatBot with my very own custom knowledge base, incorporating the powerful capabilities of GPT 3.5 Turbo and LlamaIndex, The links is above!]</b></p>", unsafe_allow_html = True)
 
 st.subheader(" ", divider='rainbow')
 st.subheader("Professional Experience")
@@ -108,7 +108,7 @@ with col28:
     st.write("2011-2015")
 
     
-st.markdown("---")
+st.subheader(" ", divider='rainbow')
 with st.container():
     st.subheader('⚒️ Skills')
     col1, col2, col3, col4, col5, col6, col7, col8 = st.columns([1,0.1, 1, 0.1, 1, 0.1, 1, 0.1])
@@ -129,12 +129,12 @@ with st.container():
     with col7:
         st.image('images/github.png', use_column_width = 'auto')
 
-st.markdown("---")
+st.subheader(" ", divider='rainbow')
 st.subheader("Other Activities")
 st.write(" - Currently Developing a AI model for use of Solar Irradiance Prediction, Fault Diagnosis and Troubleshooting of Solar Power Systems.")
 st.write(" - Taken Initivative to find parameters that impacts Nifty 50 by performing sentiment analysis using X with open/close points and cross comparing the performance in realtime.")
 
-st.markdown("---")
+st.subheader(" ", divider='rainbow')
 st.subheader("📨 Contact Me")
 st.write(info['Email'])
 st.write(info['Phone'])
