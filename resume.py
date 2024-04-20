@@ -52,8 +52,7 @@ with col21:
 
 st.markdown("<p style = 'text-align:center;'><b>Created a personalized ChatBot, designed to answer questions about me! This innovative project involves training the ChatBot with my very own custom knowledge base, incorporating the powerful capabilities of GPT 3.5 Turbo and LlamaIndex, The links is above!</b></p>", unsafe_allow_html = True)
 
-st.subheader(" ", divider='rainbow')
-st.subheader("Professional Experience")
+st.subheader(":rainbow[Professional Experience]", divider='rainbow')
 col1, col2, col3 = st.columns([4,0.5,0.5])
 col4, col5, col6 = st.columns([4,0.5,0.5])
 col7, col8, col9 = st.columns([4,0.5,0.5])
@@ -96,8 +95,7 @@ with col8:
 with col9:
     st.image('images/hcl.png', use_column_width = 'auto')
 
-st.subheader(" ", divider='rainbow')
-st.subheader("Education")
+st.subheader(":rainbow[Education]", divider='rainbow')
 col18, col28 = st.columns([1,1])
 with col18:
     st.write("**National College of Ireland - M.S in Data Analytics**")
@@ -106,10 +104,8 @@ with col28:
     st.write("**Jaya Engineering College - BE. Electronics and Telecommunication**")
     st.write("2011-2015")
 
-    
-st.subheader(" ", divider='rainbow')
 with st.container():
-    st.subheader('⚒️ Skills')
+    st.subheader(":rainbow[⚒️ Skills]", divider='rainbow')
     col1, col2, col3, col4, col5, col6, col7, col8 = st.columns([1,0.1, 1, 0.1, 1, 0.1, 1, 0.1])
     with col1:
         st.image('images/python.png', use_column_width = 'auto')
@@ -128,17 +124,16 @@ with st.container():
     with col7:
         st.image('images/github.png', use_column_width = 'auto')
 
-st.subheader(" ", divider='rainbow')
-st.subheader("Other Activities")
+st.subheader(":rainbow[Other Activities]", divider='rainbow')
 st.write(" - Currently Developing a AI model for use of Solar Irradiance Prediction, Fault Diagnosis and Troubleshooting of Solar Power Systems.")
 st.write(" - Taken Initivative to find parameters that impacts Nifty 50 by performing sentiment analysis using X with open/close points and cross comparing the performance in realtime.")
 
-st.subheader(" ", divider='rainbow')
-st.subheader("📨 Contact Me")
+st.subheader(":rainbow[📨 Contact Me", divider='rainbow'))
 st.write(info['Email'])
 st.write(info['Phone'])
 st.write(info['City'])
-st.markdown("---")
+
+st.subheader(" ", divider='rainbow')
 
 hide_st_style = """
             <style>
