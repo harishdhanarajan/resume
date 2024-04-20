@@ -25,7 +25,7 @@ full_name = info['Full_Name']
 with col1:
     gradient('#FFD4DD','#000395','e0fbfc',f"Hi, I'm {full_name}👋", info["Intro"])
     st.write("")
-st.write(":violet[Hello! I'm an Eager learner with a strong interest in Artificial Intelligence and Machine Learning. Enthusiastic about diving into the field and gaining real-time experience with Phenomenal learning models like Bigram, GPTs and Deep Learning. Ready to contribute to innovative projects and eager to expand knowledge through dedicated learning and collaboration with experts in the field!]")
+st.write(":red[Hello! I'm an Eager learner with a strong interest in Artificial Intelligence and Machine Learning. Enthusiastic about diving into the field and gaining real-time experience with Phenomenal learning models like Bigram, GPTs and Deep Learning. Ready to contribute to innovative projects and eager to expand knowledge through dedicated learning and collaboration with experts in the field!]")
 
 with col2:
     st.image('images/profile.PNG', use_column_width = 'auto')
