@@ -51,7 +51,7 @@ with col21:
         """
         )
 
-st.markdown("<p style = 'text-align:center;'><b>Created a personalized ChatBot, designed to answer questions about me! This innovative project involves training the ChatBot with my very own custom knowledge base, incorporating the powerful capabilities of GPT 3.5 Turbo and LlamaIndex, The links is above or [Click Here](https://askmeaboutharish.streamlit.app/) if not!</b></p>", unsafe_allow_html = True)
+st.markdown("<p style = 'text-align:center;'><b>Created a personalized ChatBot, designed to answer questions about me! This innovative project involves training the ChatBot with my very own custom knowledge base, incorporating the powerful capabilities of GPT 3.5 Turbo and LlamaIndex, The links is above!</b></p>", unsafe_allow_html = True)
 
 st.markdown("---")
 st.subheader("Professional Experience")
