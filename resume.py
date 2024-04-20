@@ -32,7 +32,7 @@ with col2:
 
 st.info("[Click Here to Chat about me](https://askmeaboutharish.streamlit.app/) !", icon="🤖")
 
-st.markdown("---")
+st.subheader(" ", divider='rainbow')
 st.subheader("Technical Intivatives")
 col20,col21 = st.columns([1,1])
 with col20:
@@ -53,7 +53,7 @@ with col21:
 
 st.markdown("<p style = 'text-align:center;'><b>Created a personalized ChatBot, designed to answer questions about me! This innovative project involves training the ChatBot with my very own custom knowledge base, incorporating the powerful capabilities of GPT 3.5 Turbo and LlamaIndex, The links is above!</b></p>", unsafe_allow_html = True)
 
-st.write(" ", divider='rainbow')
+st.subheader(" ", divider='rainbow')
 st.subheader("Professional Experience")
 col1, col2, col3 = st.columns([4,0.5,0.5])
 col4, col5, col6 = st.columns([4,0.5,0.5])
@@ -97,9 +97,7 @@ with col8:
 with col9:
     st.image('images/hcl.png', use_column_width = 'auto')
 
-st.markdown("---")
-
-
+st.subheader(" ", divider='rainbow')
 st.subheader("Education")
 col18, col28 = st.columns([1,1])
 with col18:
