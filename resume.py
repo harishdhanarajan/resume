@@ -13,7 +13,7 @@ def local_css(file_name):
 #local_css("r_style/style.css")
 
 def gradient(color1, color2, color3, content1, content2):
-    st.markdown(f'<h1 style="text-align:center;background-image: linear-gradient(to right,{color1}, {color2});font-size:30px;border-radius:2%;">'
+    st.markdown(f'<h1 style="text-align:center;background-image: linear-gradient(to right,{color1}, {color2});font-size:35px;border-radius:2%;">'
                 f'<span style="color:{color3};">{content1}</span><br>'
                 f'<span style="color:white;font-size:17px;">{content2}</span></h1>', 
                 unsafe_allow_html=True)
