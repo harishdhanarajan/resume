@@ -142,3 +142,12 @@ st.write(info['Email'])
 st.write(info['Phone'])
 st.write(info['City'])
 st.markdown("---")
+
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
