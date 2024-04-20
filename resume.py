@@ -4,7 +4,7 @@ from myprofile import *
 
 PAGE_TITLE = "Digital CV | Harish"
 PAGE_ICON = ":wave:"
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="centered")
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="wide")
 
 def local_css(file_name):
     with open(file_name) as f:
@@ -13,7 +13,7 @@ def local_css(file_name):
 #local_css("r_style/style.css")
 
 def gradient(color1, color2, color3, content1, content2):
-    st.markdown(f'<h1 style="text-align:center;background-image: linear-gradient(to right,{color1}, {color2});font-size:50px;border-radius:2%;">'
+    st.markdown(f'<h1 style="text-align:center;background-image: linear-gradient(to right,{color1}, {color2});font-size:30px;border-radius:2%;">'
                 f'<span style="color:{color3};">{content1}</span><br>'
                 f'<span style="color:white;font-size:17px;">{content2}</span></h1>', 
                 unsafe_allow_html=True)
