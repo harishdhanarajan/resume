@@ -47,7 +47,7 @@ with col21:
             """
         - Introduced a strategic initiative to **_Automate Quality Assurance_** tasks, resulting in a notable boost in overall employee productivity by saving 6-7 hours of work per week.
         - Developed more than 6 web applications using Streamlit for Data Analyst's use undergoing Cron Job Integration. (eg. ITSupport, Health Reminder)
-        - Created **_Data Catalogs_** across all the databases in the Bank for analytic purposes such high memory consumptions, processing speed of queries, etc.
+        - •	Created **_Data Catalog for Client’ Use_** – It can precisely show the data they are looking for and saving great amount of time and the stress to undergo SQL querying for Non-Technical Clients
         """
         )
 
