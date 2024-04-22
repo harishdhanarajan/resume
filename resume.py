@@ -37,16 +37,16 @@ col20,col21 = st.columns([1,1])
 with col20:
     st.write(
             """
-        - Introduced a strategic initiative to **_Automate Quality Assurance_** tasks, resulting in a notable boost in overall employee productivity by saving 6-7 hours of work per week.
         - Led the development of a Semantic Search Engine utilizing advanced **_BERT/NLTK models_**, leveraging the Bank's Confluence knowledge base to streamline the retrieval of pertinent documentation.
-        - Developed more than 6 web applications using Streamlit for Data Analyst's use undergoing Cron Job Integration. 
+        - Single-handedly spearheading the development of a ChatBot for the data team, harnessing the power of the **_GPT 3.5 Turbo model_**. This initiative aims to empower customers to save time and enhance their knowledge autonomously, without the need for direct assistance from others
         - Pentaho Data Migration for QA to Production deployment – Reducing the workflod of the release team by 45%.
         """
         )
 with col21:
     st.write(
             """
-        - Single-handedly spearheading the development of a ChatBot for the data team, harnessing the power of the **_GPT 3.5 Turbo model_**. This initiative aims to empower customers to save time and enhance their knowledge autonomously, without the need for direct assistance from others.
+        - Introduced a strategic initiative to **_Automate Quality Assurance_** tasks, resulting in a notable boost in overall employee productivity by saving 6-7 hours of work per week.
+        - Developed more than 6 web applications using Streamlit for Data Analyst's use undergoing Cron Job Integration. 
         - Created **_Data Catalogs_** across all the databases in the Bank for analytic purposes such high memory consumptions, processing speed of queries, etc.
         """
         )
