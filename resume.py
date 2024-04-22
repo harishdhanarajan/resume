@@ -30,7 +30,7 @@ st.write(":orange[Hello! I'm an Eager learner with a strong interest in Artifici
 with col2:
     st.image('images/profile.PNG', use_column_width = 'auto')
 
-st.info("[Click Here to Chat about me](https://askmeaboutharish.streamlit.app/) !", icon="🤖")
+st.info("[Click Here to Chat about me (Custom ChatBot)](https://askmeaboutharish.streamlit.app/) !", icon="🤖")
 
 st.subheader("📊:rainbow[Technical Intivatives]", divider='rainbow')
 col20,col21 = st.columns([1,1])
