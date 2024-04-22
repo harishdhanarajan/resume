@@ -32,7 +32,7 @@ with col2:
 
 st.info("[Click Here to Chat about me (Custom ChatBot)](https://askmeaboutharish.streamlit.app/) !", icon="🤖")
 
-st.subheader("📊:rainbow[Individual Intivatives @ The Bank]", divider='rainbow')
+st.subheader("📊:rainbow[Individual Intivatives @ The Bank of NY]", divider='rainbow')
 col20,col21 = st.columns([1,1])
 with col20:
     st.write(
