@@ -32,14 +32,15 @@ with col2:
 
 st.info("[Click Here to Chat about me (Custom ChatBot)](https://askmeaboutharish.streamlit.app/) !", icon="🤖")
 
-st.subheader("📊:rainbow[Technical Intivatives]", divider='rainbow')
+st.subheader("📊:rainbow[Individual Intivatives @ The Bank]", divider='rainbow')
 col20,col21 = st.columns([1,1])
 with col20:
     st.write(
             """
         - Introduced a strategic initiative to **_Automate Quality Assurance_** tasks, resulting in a notable boost in overall employee productivity by saving 6-7 hours of work per week.
         - Led the development of a Semantic Search Engine utilizing advanced **_BERT/NLTK models_**, leveraging the Bank's Confluence knowledge base to streamline the retrieval of pertinent documentation.
-        - Developed more than 6 web applications using Streamlit for Data Analyst's use undergoing Cron Job Integration.        
+        - Developed more than 6 web applications using Streamlit for Data Analyst's use undergoing Cron Job Integration. 
+        - Pentaho Data Migration for QA to Production deployment – Reducing the workflod of the release team by 45%.
         """
         )
 with col21:
